@@ -41,7 +41,3 @@ const getWarningAndErros = filepath => {
   fs.writeFileSync(warningPath, "\n\n", { flag: 'a+' })
   fs.writeFileSync(errorPath, "\n\n", { flag: 'a+' })
 }
-
-console.log(getWarningAndErros(REACT_PATH))
-console.log(getWarningAndErros(REACT_DOM_PATH))
-console.log(getWarningAndErros(REACT_JSX_RUN_TIME_PATH))
